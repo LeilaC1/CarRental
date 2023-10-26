@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>ACME Car Rental</h1>
+        </div>
+        <div>
+            <label for="inputPickup"> Pickup Date:</label>
+        </div>
+        <div>
+            <input type="date" id="inputPickup">
+        </div>
+        <div>
+            <label for="inputDays"> Number of days:</label>
+        </div>
+        <div>
+            <input type="date" id="inputDays">
+        </div>
+        <div>
+            <p>Options</p>
+        </div>
+        <div>
+            <input type="checkbox" id="Check1">
+            <label for="Check1">
+             Electronic Toll Tag ($3.95/day)
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Check2">
+            <label for="Check2">
+              GPS ($2.95/day)
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Check2">
+            <label for="Check2">
+              Roadside Assistance ($2.95/day)
+            </label>
+          </div>
+          <div>
+            <p>Under 25</p>
+          </div>
+          <div>
+            <input type="radio" id="Radio1">
+            <label for="Radio1">
+              No
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="radio" id="Radio2">
+            <label for="Radio2">
+              Yes
+            </label>
+          </div>
+<div style="padding: 10px;">
+    <button id="button">Estimate Total Cost</button>
+</div>
+<div style="padding-top: 15px;">
+    <label for="carRental">Car Rental: </label>
+    <p id="carRental"></p>
+    <label for="options">Options: </label>
+    <p id="options"></p>
+    <label for="surcharge">Under 25 surcharge: </label>
+    <p id="surcharge"></p>
+</div>
+<div>
+    <label for="totalDue">Total Due: </label>
+    <p id="totalDue"></p>
+</div>
+
+    </main>
+
+
+    
+
+
+
+
+
+
+<script>
+"use strict";
+
+window.onload = init;
+
+function init(){
+    const button = document.getElementById("button");
+    button.onclick = onButtonClicked;
+}
+
+
+function onButtonClicked(){
+
+
+
+
+
+}
+
+
+
+</script>
+</body>
+</html>
