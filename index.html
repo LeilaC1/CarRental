@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +20,7 @@
             <label for="inputDays"> Number of days:</label>
         </div>
         <div>
-            <input type="date" id="inputDays">
+            <input type="number" id="inputDays">
         </div>
         <div>
             <p>Options</p>
@@ -61,16 +62,20 @@
     <button id="button">Estimate Total Cost</button>
 </div>
 <div style="padding-top: 15px;">
-    <label for="carRental">Car Rental: </label>
+    <p for="carRental">Car Rental: </p>
     <p id="carRental"></p>
-    <label for="options">Options: </label>
-    <p id="options"></p>
-    <label for="surcharge">Under 25 surcharge: </label>
-    <p id="surcharge"></p>
 </div>
 <div>
-    <label for="totalDue">Total Due: </label>
-    <p id="totalDue"></p>
+    <p for="options" >Options: </p>
+    <p type="number" id="options" name="options"></p>
+</div>
+<div>
+    <p for="surcharge">Under 25 surcharge: </p>
+    <p type="number" id="surcharge" mame="surcharge"></p>
+</div>
+<div>
+    <p for="totalDue">Total Due: </p>
+    <p type="number" id="totalDue" name="totalDue"></p>
 </div>
 
     </main>
